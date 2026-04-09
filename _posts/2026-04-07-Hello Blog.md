@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Hello"
+title:      "Hello Blog"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2026-04-07 21:30:00
 author:     "Zemiss"
