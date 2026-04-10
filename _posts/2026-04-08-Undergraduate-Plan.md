@@ -2,7 +2,7 @@
 layout:     post
 title:      "Undergraduate-Plan"
 subtitle:   " \"愿前途不是幻想\""
-date:       2026-04-08 12:50:00
+date:       2026-04-08 12:00:00
 author:     "Zemiss"
 header-img: "img/bg-walle.jpg"
 catalog: true
