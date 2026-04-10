@@ -6,6 +6,7 @@ date:       2026-04-09 17:50:00
 author:     "Zemiss"
 header-img: "img/bg-MAII.jpg"
 catalog: true
+mathjax: true
 tags:
   - MAII
   - MA
