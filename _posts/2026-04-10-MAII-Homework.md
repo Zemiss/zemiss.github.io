@@ -80,18 +80,21 @@ $$\varlimsup_{\Omega\ni X\to X_0} f(X) = \sup S_{X_0},\quad \varliminf_{\Omega\n
 ### 第11题
 
 **条件：**
-设 \( f_m(X) \ (m=1,2,\dots) \) 是 \( \mathbb{R}^n \) 中紧集 \( \Omega \) 上的连续函数列，且对任意 \( X\in\Omega \)，有\[\sup_{m} f_m(X) < +\infty.\]
-记 \( f(X) = \sup_{m} f_m(X) \)
+设 $f_m(X) \ (m=1,2,\dots)$ 是 $\mathbb{R}^n$ 中紧集 $\Omega$ 上的连续函数列，且对任意 $X\in\Omega$，有
 
-**题目：证明\( f(X) \) 在 \( \Omega \) 上达到最小值。**
+$$\sup_{m} f_m(X) < +\infty$$
+
+记 $f(X) = \sup_{m} f_m(X)$
+
+**题目：证明 $f(X)$ 在 $\Omega$ 上达到最小值。**
 
 
 **思路：**
-1. **证\(f\) 下半连续**：
-因为每个 \(f_m\) 连续，用上确界的定义可以推出：\(f(x_0)\le\liminf_{x\to x_0}f(x)\)即 \(f\) 下半连续。
+1. **证 $f$ 下半连续**：
+因为每个 $f_m$ 连续，用上确界的定义可以推出：$f(x_0)\le\liminf_{x\to x_0}f(x)$即 $f$ 下半连续。
 
 2. **取极小化序列**
-记 \(m = \inf_\Omega f\)，存在点列 \(x_k\in\Omega\) 使得 \(f(x_k)\to m\)。
+记 $m = \inf_\Omega f$，存在点列 $x_k\in\Omega$ 使得 $f(x_k)\to m$。
 
-1. **用紧性取收敛子列**
-\(\Omega\) 紧，故 \(x_k\) 有子列收敛到某点 \(x^*\in\Omega\)。再用下半连续性：\(f(x^*)\le\liminf f(x_k)=m\)而 \(f(x^*)\ge m\) 恒成立，故 \(f(x^*)=m\)，即最小值可达。
+3. **用紧性取收敛子列**
+$\Omega$ 紧，故 $x_k$ 有子列收敛到某点 $x^*\in\Omega$。再用下半连续性：$f(x^*)\le\liminf f(x_k)=m$而 $f(x^*)\ge m$ 恒成立，故 $f(x^*)=m$，即最小值可达。
